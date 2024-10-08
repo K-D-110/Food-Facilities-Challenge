@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --require esm"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.4.0",
+    "supertest": "^7.0.0"
+  }
+}
